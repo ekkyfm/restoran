@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="0" pref="18" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="594" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="18" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="330" max="-2" attributes="0"/>
+              <EmptySpace pref="52" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="6" rowCount="14">
+                <Column editable="true" title="No Menu" type="java.lang.Object">
+                  <Data value="mn001"/>
+                  <Data value="mn002"/>
+                  <Data value="mn003"/>
+                  <Data value="mn004"/>
+                  <Data value="mn005"/>
+                  <Data value="mn006"/>
+                  <Data value="mn007"/>
+                  <Data value="mn008"/>
+                  <Data value="mn009"/>
+                  <Data value="mn010"/>
+                  <Data value="mn011"/>
+                  <Data value="mn012"/>
+                  <Data value="mn013"/>
+                  <Data value="mn014"/>
+                </Column>
+                <Column editable="true" title="Nama Menu" type="java.lang.Object">
+                  <Data value="Ceker Setan"/>
+                  <Data value="Jamur Goreng Garing"/>
+                  <Data value="Ayam Penyet"/>
+                  <Data value="Cumi Asam Manis"/>
+                  <Data value="Pisang Keju"/>
+                  <Data value="Singkong Keju"/>
+                  <Data value="Kopi Hitam"/>
+                  <Data value="Kopi Susu"/>
+                  <Data value="Teh Tarik"/>
+                  <Data value="Teh Hijau"/>
+                  <Data value="Susu Soda"/>
+                  <Data value="Sprite"/>
+                  <Data value="Milkshake Coklat"/>
+                  <Data value="Milkshake Apel"/>
+                </Column>
+                <Column editable="true" title="Jenis" type="java.lang.Object">
+                  <Data value="Makanan"/>
+                  <Data value="Makanan"/>
+                  <Data value="Makanan"/>
+                  <Data value="Makanan"/>
+                  <Data value="Makanan"/>
+                  <Data value="Makanan"/>
+                  <Data value="Minuman"/>
+                  <Data value="Minuman"/>
+                  <Data value="Minuman"/>
+                  <Data value="Minuman"/>
+                  <Data value="Minuman"/>
+                  <Data value="Minuman"/>
+                  <Data value="Minuman"/>
+                  <Data value="Minuman"/>
+                </Column>
+                <Column editable="true" title="Kategori" type="java.lang.Object">
+                  <Data value="Makanan Pembuka"/>
+                  <Data value="Makanan Pembuka"/>
+                  <Data value="Makanan Utama"/>
+                  <Data value="Makanan Utama"/>
+                  <Data value="Makanan Penutup"/>
+                  <Data value="Makanan Penutup"/>
+                  <Data value="Kopi"/>
+                  <Data value="Kopi"/>
+                  <Data value="Teh"/>
+                  <Data value="Teh"/>
+                  <Data value="Soda"/>
+                  <Data value="Soda"/>
+                  <Data value="Milkshake"/>
+                  <Data value="MIlkshake"/>
+                </Column>
+                <Column editable="true" title="Gambar" type="java.lang.Object">
+                  <Data value="-"/>
+                  <Data value="-"/>
+                  <Data value="-"/>
+                  <Data value="-"/>
+                  <Data value="-"/>
+                  <Data value="-"/>
+                  <Data value="-"/>
+                  <Data value="-"/>
+                  <Data value="-"/>
+                  <Data value="-"/>
+                  <Data value="-"/>
+                  <Data value="-"/>
+                  <Data value="-"/>
+                  <Data value="-"/>
+                </Column>
+                <Column editable="true" title="Aksi" type="java.lang.Object">
+                  <Data value="Edit | Hapus"/>
+                  <Data value="Edit | Hapus"/>
+                  <Data value="Edit | Hapus"/>
+                  <Data value="Edit | Hapus"/>
+                  <Data value="Edit | Hapus"/>
+                  <Data value="Edit | Hapus"/>
+                  <Data value="Edit | Hapus"/>
+                  <Data value="Edit | Hapus"/>
+                  <Data value="Edit | Hapus"/>
+                  <Data value="Edit | Hapus"/>
+                  <Data value="Edit | Hapus"/>
+                  <Data value="Edit | Hapus"/>
+                  <Data value="Edit | Hapus"/>
+                  <Data value="Edit | Hapus"/>
+                </Column>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tambah Data"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
