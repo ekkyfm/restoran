@@ -83,7 +83,7 @@ public class MenuDao {
         PreparedStatement deleteStatement = null;
         try {
             deleteStatement = connection.prepareStatement(delete);
-            deleteStatement.setInt(0, meja.getNoMeja());
+            deleteStatement.setInt(0, menu.getIdMenu());
             deleteStatement.executeUpdate();
         } catch (SQLException ex) {
             ex.printStackTrace();
@@ -99,19 +99,19 @@ public class MenuDao {
 
             ResultSet rs = selectAllStatement.executeQuery(selectAll);
             while (rs.next()) {
-                Meja meja = new Meja();
-                meja.setNoMeja(rs.getInt("no_meja"));
-                meja.setKapasitas(rs.getInt("kapasitas"));
-                meja.setLantai(rs.getString("lantai"));
-                meja.setPosisi(rs.getString("posisi"));
-                listMenu.add(meja);
+                Menu menu = new Menu();
+                menu.setIdMenu(rs.getInt("id_menu"));
+                menu.setNamaMenu(rs.getString("nama_menu"));
+                menu.setJenis(rs.getString("jenis"));
+                menu.setIdKategori(rs.getInt("id_kategori"));
+                listMenu.add(menu);
             }
 
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
 
-        return listMeja;
+        return listMenu;
 
 
     }
