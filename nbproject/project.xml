@@ -3,7 +3,11 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+<<<<<<< HEAD
             <name>restoran</name>
+=======
+            <name>TugasBesar</name>
+>>>>>>> 4d26ff6daf85c570056dd6272586fe3bb7949a27
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>

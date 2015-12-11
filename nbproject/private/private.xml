@@ -2,6 +2,28 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group/>
+=======
+        <group>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/dao/MejaDao.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/entities/Meja.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/view/Login.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/view/meja/HapusMeja.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/entities/Pesanan.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/view/pesanan/IndexPesanan.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/view/kategori/KategoriList.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/view/meja/TableAdd.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/view/MainPelayan.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/entities/DetailPesanan.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/view/KonfigurasiMeja.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/view/menu/MenuList.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/view/meja/TableList.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/dao/PesananDao.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/view/MainAdmin.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/view/menu/MenuEdit.java</file>
+            <file>file:/home/ekky/NetBeansProjects/TugasBesar/src/view/kategori/KategoriAdd.java</file>
+        </group>
+>>>>>>> 4d26ff6daf85c570056dd6272586fe3bb7949a27
     </open-files>
 </project-private>
